@@ -1,0 +1,124 @@
+{
+  "id": "7328b7fe-8af3-4c15-bd12-9badad9ae215",
+  "version": "2.0",
+  "name": "LICK123-v1",
+  "url": "https://www.instagram.com",
+  "tests": [{
+    "id": "aea782fb-814e-4094-ab5a-79deb557bc81",
+    "name": "Sorteo_Instagram",
+    "commands": [{
+      "id": "f9b6dc8e-ff6e-48e3-84d2-9ed4b5d137a4",
+      "comment": "",
+      "command": "open",
+      "target": "URL DEL POST",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "123f62d1-fad6-4768-ae6d-b597d33cf085",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x784",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8932e920-1585-4545-9da8-db5cdd08bf6b",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return[\"@instagram\",\"@instagram\"]",
+      "targets": [],
+      "value": "queso"
+    }, {
+      "id": "a76eb538-c260-470b-8fe5-da562fc19ef2",
+      "comment": "",
+      "command": "while",
+      "target": "1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a8c0f51-57f3-4f7e-846b-7980bdc5d97d",
+      "comment": "",
+      "command": "forEach",
+      "target": "queso",
+      "targets": [],
+      "value": "varqueso"
+    }, {
+      "id": "ad1b73c6-26c2-4c09-87c0-7e2bad4b398f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//textarea",
+      "targets": [
+        ["css=.\\_ablz", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_2x']/div/div/div/div/div/div/div/div/section/main/div/div/article/div/div[2]/div/div[2]/section[3]/div/form/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f68dc106-6fdc-4c73-bf62-88cd9cf6eb9c",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//textarea",
+      "targets": [
+        ["css=.\\_ablz", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_YN']/div/div/div/div/div/div/div/div/section/main/div/div/article/div/div[2]/div/div[2]/section[3]/div/form/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "${varqueso} "
+    }, {
+      "id": "f4da8626-f26a-4018-9dfa-c04c75b2dbbd",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//form/button/div",
+      "targets": [
+        ["css=.\\_aad0", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_2x']/div/div/div/div/div/div/div/div/section/main/div/div/article/div/div[2]/div/div[2]/section[3]/div/form/button/div", "xpath:idRelative"],
+        ["xpath=//form/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09d7c0b6-a4ec-49cc-83c3-593c6a424699",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b74cdb8-3c16-47c9-8c4f-d597f528bf43",
+      "comment": "",
+      "command": "waitForElementEditable",
+      "target": "xpath=//textarea",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "90f4a70b-cf88-4f77-ae45-9b21b295df80",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77d17146-fe5a-4ec3-b08d-c703b72771e4",
+      "comment": "",
+      "command": "pause",
+      "target": "100000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e26e8c5c-3e2c-4c60-a6c7-cf36ba5ef93f",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "55aea67c-ec3c-44f4-ac32-d6e3c561058d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["aea782fb-814e-4094-ab5a-79deb557bc81"]
+  }],
+  "urls": ["https://www.instagram.com/", "https://www.instagram.com/p/CedxhoGIwXZ/", "https://www.instagram.com/p/CfJjvv9oIsI/"],
+  "plugins": []
+}
