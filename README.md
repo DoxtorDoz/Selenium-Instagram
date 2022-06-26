@@ -33,6 +33,6 @@ SE CREATIVO! ES MUY FÁCIL DE MANIPULAR 😃
 2. Podemos aplicar tantas listas como queramos, solo tenemos que inicializar cada lista como se ve con la primera, y hacer copy paste del for each (DENTRO DEL WHILE) de manera consecutiva para poder utilizar dichas listas, aplicando siempre 10 minutos de pausa entre cada uno de los for each.
 
 ⚠️ OBSERVACIONES:
-1. Este es un código que hice super rapido para participar en un sorteo (yo no he ganado nada por ahora, pero mis hermanos usando el código si...), por lo que puede que sea un poco desastre. Si al utilizar el código, realizas unas optimizaciones óptimas, estaría bien que las compartas, ya que me ayudaría a mí y al resto.
+1. Este es un código que hice super rapido para participar en un sorteo (yo no he ganado nada por ahora, pero mis hermanos usando el código si...), por lo que puede que sea un poco desastre. Si al utilizar el código, realizas unos cambios óptimos, estaría bien que los compartas, ya que ayudaría a todos.
 2. Estoy buscando la manera de poder llevar a cabo la misma idea para Twitter y Facebook (aunque Twitter es más complicado), por lo que puede que también lo suba por aquí.
 3. No se que más decir haha, solo que sub a LICK 123 😄😄😄😄
