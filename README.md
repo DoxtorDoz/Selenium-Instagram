@@ -19,6 +19,9 @@ El código se divide en varias partes...
 8. Aplicamos una pausa de 10 minutos para evitar penalizaciones por parte de Instagram.
 9. Cerramos el while con un end.
 
+HAY 2 VERSIONES DISTINTAS DE ESTE CÓDIGO.
+SE CREATIVO! ES MUY FÁCIL DE MANIPULAR :D
+
 
 CONSEJOS:
 1. Es recomendable que las listas NO superen los 15 usuarios, ya que con los tiempos predefinidos, Instagram puede realizar una penalización.
